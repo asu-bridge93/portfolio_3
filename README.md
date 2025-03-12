@@ -1,6 +1,6 @@
 # K-Pop Idol Classification -- TOMORROW X TOGETHER (TXT)
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 ## Project Overview
 
@@ -8,7 +8,7 @@ This machine learning project implements a facial recognition system specificall
 
 ## Motivation & Background
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 This project emerged from several motivations:
 
@@ -21,7 +21,7 @@ This project emerged from several motivations:
 
 ### 1. Data Collection
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 - **Automated Crawling**: Utilized Bing image crawler to gather a large dataset of K-pop idol images
 - **Manual Curation**: Filtered images to remove noise and ensure quality
@@ -30,8 +30,8 @@ This project emerged from several motivations:
 
 ### 2. Dataset Preparation & Preprocessing
 
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](images/image-8.png)
+![alt text](images/image-9.png)
 
 - **Data Augmentation**: Rotated images left and right by 90° to expand dataset to 200 images per idol
 - **Face Detection**: Implemented YOLOv8-Face-Detection from Hugging Face
@@ -40,7 +40,7 @@ This project emerged from several motivations:
 
 ### 3. Model Architecture & Fine-Tuning
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 - **Base Model**: Used Google's Vision Transformer (ViT) architecture
 - **Pre-trained Foundation**: Started with `google/vit-base-patch16-224` model from Hugging Face
@@ -68,8 +68,9 @@ This project emerged from several motivations:
 
 ### Human vs. AI Recognition Study
 
-![alt text](image-1.png)
-![](image-13.png)
+![alt text](images/image-1.png)
+![alt text](images/image-13.png)
+
 I conducted a comparative analysis between human and machine recognition capabilities:
 
 - **Survey Methodology**: Collected data from 10 participants
@@ -85,7 +86,7 @@ I conducted a comparative analysis between human and machine recognition capabil
 
 ## Demo Application
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 - **Technology**: Implemented using Gradio for interactive demonstration
 - **Functionality**: Allows users to upload images for real-time classification
